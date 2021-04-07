@@ -5,19 +5,21 @@ from threading import Timer
 from request import getEthPrice
 
 #Useful variables
+#Your api key here:
+apiKey = '...'
 #!!!!Do not use you main e-mail adress
-mail = 'email'
-password = 'mail password'
+mail ='...'
+password = '...'
 #Any E-mail adress that accepts unknow sources
-to = "your main email"
+to = '...'
 #mail Subject
 mailSubject = 'Hey !'
 #Number of seconds between requests 
 time = 300
 #crypto currency symbol
-symbol = 'ETH'
+symbol = 'BTC'
 #outputCurrency
-outputCurrency = 'USD'
+outputCurrency = 'EUR'
 def sendMail(subject,msg):
     try:
         #try to send mail
@@ -38,10 +40,10 @@ def sendMail(subject,msg):
         print('an error occured')
 #Execution of both functions
 def exe():
-    price = getEthPrice(symbol,outputCurrency)
+    price = getEthPrice(symbol,outputCurrency,apiKey)
     ################ ADD your conditions IN HERE ################## 
-    #if .... execute the two lines below 
-    message= f"Eth price is : {price} $USD"
-    sendMail(mailSubject,message)
+    if price < 37000:
+        message= f"{symbol} price is : {price} {outputCurrency}"
+        sendMail(mailSubject,message)
     Timer(time,exe).start()
 exe()
