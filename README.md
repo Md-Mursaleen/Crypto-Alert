@@ -13,3 +13,6 @@ Secondely, go to https://coinmarketcap.com/api/ . And create an Account. After y
 
 ![Image of the dashboard](https://github.com/saadze/Crypto-Alert/blob/main/images/coinmarketKEY.PNG)
 
+Now you are almost ready to get up  and running, the basic file will only fetch the price of a currency after a certain time and send an email, but if you want to add conditions such as thresholds you can !
+
+Let me guide you through this:
