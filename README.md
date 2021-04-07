@@ -30,9 +30,10 @@ Now your code is fully working (you can execute main.py) it will send automatic 
 
 ![Possibility to add conditions](https://github.com/saadze/Crypto-Alert/blob/main/images/conditions.PNG)
 
-When even the condition is true, you should execute line 44 and 45
+When the condition is true, you should execute line 44 and 45
 
 Here is an example:
+
 ![Possibility to add conditions](https://github.com/saadze/Crypto-Alert/blob/main/images/conditionsGood.PNG)
 
 
