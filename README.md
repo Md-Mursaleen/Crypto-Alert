@@ -7,8 +7,9 @@ Befor using the file you will need to follow these steps:
 * Entrer the above info in your main.py
 * DONE !
 
-First, create a Gmail Account and go to this link : shorturl.at/dySY4 . Once there, accept less secure apps !
+First, create a Gmail Account and go to this link : https://shorturl.at/dySY4 . Once there, accept less secure apps !
 
 Secondely, go to https://coinmarketcap.com/api/ . And create an Account. After you complete all verification, go to the dashboards and copy your API KEY
+
 ![Image of the dashboard](https://github.com/saadze/Crypto-Alert/blob/main/images/coinmarketKEY.PNG)
 
