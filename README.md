@@ -20,5 +20,10 @@ Let me guide you through this:
 2. Add the email adress that you created + its password
 3. Change the "to" variable to your main email adress (where you will receive alerts)
 4. Set a subject for the E-mails and set time to the time between the requests (in seconds) !!! 333 Calls per day MAX!
-5. Finally set the symbol of the currency you want to follow in the symbol variable (example: BTC,ETH,XRP,LTC,DOGE ...)
+5. Finally set the symbol of the currency you want to follow in the symbol variable (example: BTC,ETH,XRP,LTC,DOGE etc)
+
 ![Image of the variables to change](https://github.com/saadze/Crypto-Alert/blob/main/images/variables.PNG)
+
+Now your code is fully working (you can execute main.py) and will send automatic e-mails
+
+![Possibility to add conditions](https://github.com/saadze/Crypto-Alert/blob/main/images/conditions.PNG)
