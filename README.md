@@ -1,7 +1,7 @@
 # Crypto-Alert
 This Python script will help you get E-Mail alerts following certain conditions like the price going over a threshold (Example: Price > 2000 USD --> Alert)
 
-Befor using the file you will need to follow these steps:
+Before using the file you will need to follow these steps:
 * Create a Gmail Account and set it up
 * Create an account cryptomarketcap.com to get an API KEY
 * Entrer the above info in your main.py
@@ -13,7 +13,13 @@ Secondely, go to https://coinmarketcap.com/api/ . And create an Account. After y
 
 ![Image of the dashboard](https://github.com/saadze/Crypto-Alert/blob/main/images/coinmarketKEY.PNG)
 
-Now you are almost ready to get up  and running, the basic file will only fetch the price of a currency after a certain time and send an email, but if you want to add conditions such as thresholds you can !
+Now you are almost ready to get up and running, but before changing our files, let's install all packages:
+
+...
+#If you're not in the same directory as the files, first use 'cd' to get to the correct directory
+#then execute this line in your terminal
+pip install -r -requirements
+...
 
 Let me guide you through this (we will change variables in the beginning of the file):
 1. Open main.py
