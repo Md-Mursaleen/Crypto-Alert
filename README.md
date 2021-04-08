@@ -15,11 +15,11 @@ Secondely, go to https://coinmarketcap.com/api/ . And create an Account. After y
 
 Now you are almost ready to get up and running, but before changing our files, let's install all packages:
 
-...
+'''python
 #If you're not in the same directory as the files, first use 'cd' to get to the correct directory
 #then execute this line in your terminal
 pip install -r -requirements
-...
+'''
 
 Let me guide you through this (we will change variables in the beginning of the file):
 1. Open main.py
